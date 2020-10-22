@@ -47,7 +47,6 @@ void solve() {
       cin >> current;
       if (current < minimum) {
         minimum = current;
-        on;
       }
       result += minimum;
     }

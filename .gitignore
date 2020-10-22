@@ -5,9 +5,8 @@
 
 ### Linux ###
 *~
-cp.py
-run.py
-*.txt
+input.txt
+output.txt
 *.out
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
@@ -22,11 +21,7 @@ run.py
 .nfs*
 
 ### VisualStudioCode ###
-.vscode/*
-.vscode/settings.json
-.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+
 *.code-workspace
 
 ### VisualStudioCode Patch ###
