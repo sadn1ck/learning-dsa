@@ -52,7 +52,7 @@ void solve() {
     ll t = 0;
     cin >> t;
     while(t--){
-        
+        // https://codeforces.com/contest/1433/problem/C
     }
 }
 int main() {

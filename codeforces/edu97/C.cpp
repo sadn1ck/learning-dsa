@@ -49,6 +49,8 @@ void solve()
     cin >> t;
     fo(t)
     {
+        cout << t--;
+        // https://codeforces.com/contest/1437/problem/C
     }
 }
 int main()

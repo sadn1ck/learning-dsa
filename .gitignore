@@ -5,6 +5,7 @@
 stdc++.h
 stdc++.gch
 bits/
+*.jar
 ### Linux ###
 *~
 input.txt

@@ -12,6 +12,12 @@ if filepath[-3:].lower() == "cpp":
     print("$ Executing ")
     os.system(filepath[:-3]+"out")
 
+elif filepath[-2:].lower() == "kt":
+    print("$ Building ")
+    os.system("kotlinc "+filepath+" -include-runtime -d "+filepath[:-2]+"jar")
+    print("$ Executing ")
+    os.system("java -jar "+filepath[:-2]+"jar")
+
 elif filepath[-2:].lower() == "py":
     print("$ Running ")
     os.system("python3 "+filepath)
