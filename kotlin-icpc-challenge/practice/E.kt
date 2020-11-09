@@ -27,16 +27,6 @@ fun Boolean.toInt() = if (this) 1 else 0
 val INF = 0x3f3f3f3f
 val MOD = (1e9 + 7).toLong()
 /***********************************************************************************************/
-
-fun main() {
-    var t: Int = readInt()
-    for (j in 0..t-1){
-        var n:Int = readInt()
-        var a:Int = readInt()
-        var b:Int = readInt()
-        for (i in 0..n-1){
-            print('a' + (i%b))
-        }
-        println()
-    }
+fun main(){
+    var t:Int = readInt()
 }
