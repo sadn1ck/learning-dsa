@@ -83,7 +83,7 @@ def main():
         n, k = map(int, input().split())
         st = input()
         cnt, stk, mag, iron = 0, [0] * 100001, [], []
-        for i, v in enumerate(st):
+        for i, v in n:
             if v == ':':
                 cnt += 1
             stk[i] = cnt
